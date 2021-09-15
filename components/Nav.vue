@@ -55,7 +55,6 @@
         </li>
         <li>
           <NuxtLink
-            v-scroll-to="'#contacto'"
             to="/galeria"
             aria-label="Product pricing"
             title="Product pricing"
@@ -172,6 +171,21 @@
                       hover:text-deep-purple-accent-400
                     "
                     >¿Quiénes somos?</a
+                  >
+                </li>
+                <li>
+                  <NuxtLink
+                    to="/galeria"
+                    aria-label="Product pricing"
+                    title="Product pricing"
+                    class="
+                      font-medium
+                      tracking-wide
+                      text-purple
+                      transition-colors
+                      duration-200
+                    "
+                    >Galería</NuxtLink
                   >
                 </li>
                 <li>
