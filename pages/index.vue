@@ -15,17 +15,16 @@
     >
       <MoovereLogo />
       <div class="flex w-full">
-        <div class="mx-auto text-center lg:text-xl font-medium text-purple">
-          <p>Somos el único centro integral del mundo donde brindamos atención personalizada <br/> 
-          a cualquier tipo de personas, ya sea para tratamientos estéticos, médicos o deportivos<br/>
-          Su salud, bienestar físico y buena autoestima son nuestra prioridad.</p>
+        <div v-scroll-to="'#quienes'" class="mx-auto">
+          <font-awesome-icon
+            class="animated bounce infinite text-purple text-2xl"
+            :icon="['fas', 'arrow-down']"
+          />
         </div>
       </div>
-      
     </div>
- 
-    
-    <!-- QUIENES SOMOS 
+
+    <!-- QUIENES SOMOS -->
     <section
       id="quienes"
       data-aos="fade-in"
@@ -200,10 +199,8 @@
         </div>
       </div>
     </div>
--->
 
-
-    <!-- SECCION DE PRODUCTOS 
+    <!-- SECCION DE PRODUCTOS -->
     <section
       id="equipos"
       data-aos="fade-in"
@@ -240,9 +237,8 @@
         </div>
       </div>
     </section>
--->
 
-    <!-- ::::::::: 1 :::::::::: 
+    <!-- ::::::::: 1 :::::::::: -->
     <div class="sr-only sm:not-sr-only">
       <section class="text-gray-900 body-font">
         <div
@@ -335,9 +331,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 2 :::::::::: 
+      <!-- ::::::::: 2 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -429,9 +424,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 3 :::::::::: 
+      <!-- ::::::::: 3 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -523,9 +517,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 4 :::::::::: 
+      <!-- ::::::::: 4 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -621,9 +614,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 5 :::::::::: 
+      <!-- ::::::::: 5 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -717,11 +709,10 @@
         </div>
       </section>
     </div>
--->
 
     <!--PRODUCTOS RESPONSIVO-->
 
-    <!-- ::::::::: 1 :::::::::: 
+    <!-- ::::::::: 1 :::::::::: -->
     <div class="sm:sr-only not-sr-only">
       <section id="equipo" class="text-gray-900 body-font">
         <div
@@ -814,9 +805,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 2 :::::::::: 
+      <!-- ::::::::: 2 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -907,9 +897,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 3 :::::::::: 
+      <!-- ::::::::: 3 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1001,9 +990,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 4 :::::::::: 
+      <!-- ::::::::: 4 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1097,9 +1085,8 @@
           </div>
         </div>
       </section>
--->
 
-      <!-- ::::::::: 5 :::::::::: 
+      <!-- ::::::::: 5 :::::::::: -->
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1192,9 +1179,7 @@
           </div>
         </div>
       </section>
-      
     </div>
--->
   </div>
 </template>
 
