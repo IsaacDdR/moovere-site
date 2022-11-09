@@ -238,8 +238,8 @@
       </div>
     </section>
 
-    <!-- ::::::::: 1 :::::::::: -->
     <div class="sr-only sm:not-sr-only">
+      <!-- ::::::::: 1 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -331,6 +331,8 @@
           </div>
         </div>
       </section>
+      -->
+      
 
       <!-- ::::::::: 2 :::::::::: -->
       <section class="text-gray-900 body-font">
