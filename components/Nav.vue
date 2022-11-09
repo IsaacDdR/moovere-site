@@ -54,8 +54,9 @@
           >
         </li>
         <li>
-          <NuxtLink
-            to="/galeria"
+          <a
+            v-scroll-to="'#equipos'"
+            href="/"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -64,8 +65,26 @@
               text-purple
               transition-colors
               duration-200
+              hover:text-deep-purple-accent-400
             "
-            >Galería</NuxtLink
+            >Servicios</a
+          >
+        </li>
+        <li>
+          <a
+            v-scroll-to="'#equipos'"
+            href="/"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+              hover:text-deep-purple-accent-400
+            "
+            >Asesoría</a
           >
         </li>
         <li>
@@ -174,21 +193,6 @@
                   >
                 </li>
                 <li>
-                  <NuxtLink
-                    to="/galeria"
-                    aria-label="Product pricing"
-                    title="Product pricing"
-                    class="
-                      font-medium
-                      tracking-wide
-                      text-purple
-                      transition-colors
-                      duration-200
-                    "
-                    >Galería</NuxtLink
-                  >
-                </li>
-                <li>
                   <a
                     v-scroll-to="'#equipo'"
                     href="/"
@@ -205,6 +209,40 @@
                     >Equipos</a
                   >
                 </li>
+                <li>
+          <a
+            v-scroll-to="'#equipos'"
+            href="/"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+              hover:text-deep-purple-accent-400
+            "
+            >Servicios</a
+          >
+        </li>
+        <li>
+          <a
+            v-scroll-to="'#equipos'"
+            href="/"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+              hover:text-deep-purple-accent-400
+            "
+            >Asesoría</a
+          >
+        </li>
                 <li>
                   <a
                     v-scroll-to="'#contacto'"

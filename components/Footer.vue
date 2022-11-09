@@ -30,14 +30,6 @@
       <div class="space-y-2 text-sm">
         <p class="text-base font-bold tracking-wide text-purple">CONTACTO</p>
         <div class="flex">
-          <p class="mr-1 text-gray-800">Teléfono:</p>
-          <a
-            href="tel:81-2235-9751"
-            aria-label="Our phone"
-            title="Teléfono"
-            class="transition-colors duration-300 text-purple hover:text-mint"
-            >81-2235-9751</a
-          >
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-800">WhatsApp:</p>
