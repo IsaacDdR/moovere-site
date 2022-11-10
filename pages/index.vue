@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Navbar />
     <transition name="home"> </transition>
     <div
       class="
@@ -14,6 +14,7 @@
       "
     >
       <MoovereLogo />
+      <!--
       <div class="flex w-full">
         <div v-scroll-to="'#quienes'" class="mx-auto">
           <font-awesome-icon
@@ -22,9 +23,10 @@
           />
         </div>
       </div>
+      -->
     </div>
 
-    <!-- QUIENES SOMOS -->
+    <!-- QUIENES SOMOS 
     <section
       id="quienes"
       data-aos="fade-in"
@@ -199,8 +201,10 @@
         </div>
       </div>
     </div>
+    -->
 
-    <!-- SECCION DE PRODUCTOS -->
+
+    <!-- SECCION DE PRODUCTOS 
     <section
       id="equipos"
       data-aos="fade-in"
@@ -239,6 +243,9 @@
     </section>
 
     <div class="sr-only sm:not-sr-only">
+      -->
+
+
       <!-- ::::::::: 1 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
@@ -334,7 +341,7 @@
       -->
       
 
-      <!-- ::::::::: 2 :::::::::: -->
+      <!-- ::::::::: 2 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -426,8 +433,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 3 :::::::::: -->
+      <!-- ::::::::: 3 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -519,8 +527,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 4 :::::::::: -->
+      <!-- ::::::::: 4 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -616,8 +625,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 5 :::::::::: -->
+      <!-- ::::::::: 5 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -711,10 +721,10 @@
         </div>
       </section>
     </div>
-
+-->
     <!--PRODUCTOS RESPONSIVO-->
 
-    <!-- ::::::::: 1 :::::::::: -->
+    <!-- ::::::::: 1 :::::::::: 
     <div class="sm:sr-only not-sr-only">
       <section id="equipo" class="text-gray-900 body-font">
         <div
@@ -807,8 +817,8 @@
           </div>
         </div>
       </section>
-
-      <!-- ::::::::: 2 :::::::::: -->
+-->
+      <!-- ::::::::: 2 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -899,8 +909,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 3 :::::::::: -->
+      <!-- ::::::::: 3 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -992,8 +1003,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 4 :::::::::: -->
+      <!-- ::::::::: 4 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1087,8 +1099,9 @@
           </div>
         </div>
       </section>
+-->
 
-      <!-- ::::::::: 5 :::::::::: -->
+      <!-- ::::::::: 5 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1182,6 +1195,7 @@
         </div>
       </section>
     </div>
+    -->
   </div>
 </template>
 
