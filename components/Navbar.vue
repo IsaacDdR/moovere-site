@@ -65,7 +65,22 @@
               transition-colors
               duration-200
             "
-            >Galería</NuxtLink
+            >Servicios</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink
+            to="/galeria"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Asesoría</NuxtLink
           >
         </li>
         <li>
@@ -174,21 +189,6 @@
                   >
                 </li>
                 <li>
-                  <NuxtLink
-                    to="/galeria"
-                    aria-label="Product pricing"
-                    title="Product pricing"
-                    class="
-                      font-medium
-                      tracking-wide
-                      text-purple
-                      transition-colors
-                      duration-200
-                    "
-                    >Galería</NuxtLink
-                  >
-                </li>
-                <li>
                   <a
                     v-scroll-to="'#equipo'"
                     href="/"
@@ -205,6 +205,36 @@
                     >Equipos</a
                   >
                 </li>
+                <li>
+          <NuxtLink
+            to="/galeria"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Servicios</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink
+            to="/galeria"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Asesoría</NuxtLink
+          >
+        </li>
                 <li>
                   <a
                     v-scroll-to="'#contacto'"
