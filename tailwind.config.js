@@ -30,6 +30,7 @@ module.exports = {
         purple: '#4e1977',
 
         mint: '#88d3cb',
+        
         'deep-purple': {
           50: '#ede7f6',
           100: '#d1c4e9',
