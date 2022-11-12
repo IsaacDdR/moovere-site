@@ -20,26 +20,8 @@
       </div>
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <a
-            v-scroll-to="'#quienes'"
-            href=""
-            aria-label="Our product"
-            title="Our product"
-            class="
-              font-medium
-              tracking-wide
-              text-purple
-              transition-colors
-              duration-200
-              hover:text-deep-purple-accent-400
-            "
-            >¿Quiénes somos?</a
-          >
-        </li>
-        <li>
-          <a
-            v-scroll-to="'#equipos'"
-            href="/"
+          <NuxtLink
+            to="/quienes"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -48,14 +30,28 @@
               text-purple
               transition-colors
               duration-200
-              hover:text-deep-purple-accent-400
             "
-            >Equipos</a
+            >¿Quiénes somos?</NuxtLink
           >
-        </li>
-        <li>
+          </li>
+                <li>
           <NuxtLink
-            to="/galeria"
+            to="/equipos"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Equipos</NuxtLink
+          >
+          </li>
+          <li>
+          <NuxtLink
+            to="/servicios"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -67,10 +63,10 @@
             "
             >Servicios</NuxtLink
           >
-        </li>
+          </li>
         <li>
           <NuxtLink
-            to="/galeria"
+            to="/asesoria"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -84,21 +80,18 @@
           >
         </li>
         <li>
-          <a
-            v-scroll-to="'#contacto'"
-            href="/"
-            aria-label="About us"
-            title="About us"
+          <NuxtLink
+            to="/contacto"
+            aria-label="Product pricing"
+            title="Product pricing"
             class="
               font-medium
               tracking-wide
               text-purple
               transition-colors
               duration-200
-              hover:text-deep-purple-accent-400
-              mr-12
             "
-            >Contáctanos</a
+            >Contáctanos</NuxtLink
           >
         </li>
       </ul>
@@ -171,43 +164,39 @@
             </div>
             <nav>
               <ul class="space-y-4">
-                <li>
-                  <a
-                    v-scroll-to="'#quienes'"
-                    href="/"
-                    aria-label="Our product"
-                    title="Our product"
-                    class="
-                      font-medium
-                      tracking-wide
-                      text-purple
-                      transition-colors
-                      duration-200
-                      hover:text-deep-purple-accent-400
-                    "
-                    >¿Quiénes somos?</a
-                  >
-                </li>
-                <li>
-                  <a
-                    v-scroll-to="'#equipo'"
-                    href="/"
-                    aria-label="Our product"
-                    title="Our product"
-                    class="
-                      font-medium
-                      tracking-wide
-                      text-purple
-                      transition-colors
-                      duration-200
-                      hover:text-deep-purple-accent-400
-                    "
-                    >Equipos</a
-                  >
-                </li>
+          <li>
+          <NuxtLink
+            to="/quienes"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >¿Quiénes somos?</NuxtLink
+          >
+          </li>
                 <li>
           <NuxtLink
-            to="/galeria"
+            to="/equipos"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Equipos</NuxtLink
+          >
+          </li>
+          <li>
+          <NuxtLink
+            to="/servicios"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -219,10 +208,10 @@
             "
             >Servicios</NuxtLink
           >
-        </li>
+          </li>
         <li>
           <NuxtLink
-            to="/galeria"
+            to="/asesoria"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -235,23 +224,21 @@
             >Asesoría</NuxtLink
           >
         </li>
-                <li>
-                  <a
-                    v-scroll-to="'#contacto'"
-                    href="/"
-                    aria-label="Product pricing"
-                    title="Product pricing"
-                    class="
-                      font-medium
-                      tracking-wide
-                      text-purple
-                      transition-colors
-                      duration-200
-                      hover:text-deep-purple-accent-400
-                    "
-                    >Contáctanos</a
-                  >
-                </li>
+        <li>
+          <NuxtLink
+            to="/contacto"
+            aria-label="Product pricing"
+            title="Product pricing"
+            class="
+              font-medium
+              tracking-wide
+              text-purple
+              transition-colors
+              duration-200
+            "
+            >Contáctanos</NuxtLink
+          >
+        </li>
               </ul>
               <ul class="flex mt-4 justify-center space-x-4">
                 <li>
