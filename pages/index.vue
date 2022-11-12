@@ -35,7 +35,7 @@
             >
           </p>
           <NuxtLink
-                to="/imoove"
+                to="/quienes"
                 class="
                   mt-6
                   inline-flex
