@@ -24,6 +24,16 @@
         </div>
       </div>
       -->
+      <p class=" text-center md:w-1/2 mx-4 text-purple">
+        Somos un centro de rehabilitación, acondicionamiento físico y
+            estético. Trabajamos con equipos de última generación con tecnología
+            desarrollada en Francia, Italia y Alemania.
+            <br />
+            <br />Los más importantes llamados:
+            <strong>
+              Imoove, Icoone, Inshape, Kysio y Vacumed.</strong
+            >
+          </p>
     </div>
 
     <!-- QUIENES SOMOS 
