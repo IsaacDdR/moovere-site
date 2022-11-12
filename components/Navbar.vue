@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      px-4
+      px-8
       py-5
       w-full
       fixed
@@ -242,12 +242,6 @@
               </ul>
               <ul class="flex mt-4 justify-center space-x-4">
                 <li>
-                  <a href="tel:5628348062">
-                    <font-awesome-icon
-                      class="text-2xl mx-5 text-mint"
-                      :icon="['fas', 'phone']"
-                    />
-                  </a>
                   <a
                     href="https://api.whatsapp.com/send?phone=528134421227&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20cita.%20"
                   >
