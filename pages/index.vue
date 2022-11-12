@@ -24,7 +24,7 @@
         </div>
       </div>
       -->
-      <p class=" text-center md:w-1/2 mx-4 text-purple">
+      <p class=" text-center md:w-2/3 mx-4 font-semibold text-purple">
         Somos un centro de rehabilitación, acondicionamiento físico y
             estético. Trabajamos con equipos de última generación con tecnología
             desarrollada en Francia, Italia y Alemania.
@@ -34,6 +34,25 @@
               Imoove, Icoone, Inshape, Kysio y Vacumed.</strong
             >
           </p>
+          <NuxtLink
+                to="/imoove"
+                class="
+                  mt-6
+                  inline-flex
+                  text-white
+                  bg-purple
+                  border-0
+                  py-2
+                  px-6
+                  focus:outline-none
+                  hover:bg-mint
+                  hover:text-purple
+                  rounded
+                  text-lg
+                "
+              >
+                Lee más
+              </NuxtLink>
     </div>
 
     <!-- QUIENES SOMOS 
