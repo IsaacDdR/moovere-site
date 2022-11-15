@@ -23,7 +23,7 @@
           <p class="text-sm text-gray-800">
             Contáctanos para conocer más de los equipos o las sesiones que
             Moovere tiene para ti. <br />
-            Agenda tu cita por WhatsApp o llamanos, estamos para atenderte.
+            Agenda tu cita por WhatsApp, estamos para atenderte.
           </p>
         </div>
       </div>
