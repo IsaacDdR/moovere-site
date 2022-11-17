@@ -290,7 +290,7 @@
                 py-2
                 px-6
                 focus:outline-none
-                hover:bg-mint
+                hover:bg-mint hover:text-purple
                 rounded
                 text-lg
               "
@@ -298,22 +298,22 @@
               Agenda una cita
             </a>
             <NuxtLink
-              to="/"
+              to="/equipos"
               class="
                 ml-4
                 inline-flex
-                text-gray-700
-                bg-gray-100
+                text-white
+                bg-deep-purple-400
                 border-0
                 py-2
                 px-6
                 focus:outline-none
-                hover:bg-gray-200
+                hover:bg-mint hover:text-purple
                 rounded
                 text-lg
               "
             >
-              Inicio
+              Ver más equipos
             </NuxtLink>
           </div>
         </div>
