@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavProd />
+    <Navbar />
     <section class="text-gray-900 body-font">
       <div
         class="
@@ -279,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center text-center">
             <a
               href="https://api.whatsapp.com/send?phone=528134421227&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20cita.%20"
               class="
