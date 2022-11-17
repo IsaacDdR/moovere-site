@@ -3,6 +3,8 @@
     <Navbar />
     <transition name="home"> </transition>
     <div
+      data-aos="fade-in"
+      data-aos-duration="2000"
       class="
         flex flex-col
         h-screen
@@ -24,35 +26,36 @@
         </div>
       </div>
       -->
-      <p class=" text-center md:w-2/3 mx-4 font-semibold text-purple">
-        Somos un centro de rehabilitación, acondicionamiento físico y
-            estético. Trabajamos con equipos de última generación con tecnología
-            desarrollada en Francia, Italia y Alemania.
-            <br />
-            <br />Los más importantes llamados:
-            <strong>
-              Imoove, Icoone, Inshape, Kysio y Vacumed.</strong
-            >
-          </p>
-          <NuxtLink
-                to="/quienes"
-                class="
-                  mt-6
-                  inline-flex
-                  text-white
-                  bg-purple
-                  border-0
-                  py-2
-                  px-6
-                  focus:outline-none
-                  hover:bg-mint
-                  hover:text-purple
-                  rounded
-                  text-lg
-                "
-              >
-                Lee más
-              </NuxtLink>
+      <p
+        data-aos="fade-in"
+        data-aos-duration="2000"
+        class="text-center md:w-2/3 mx-4 font-semibold text-purple"
+      >
+        Somos un centro de rehabilitación, acondicionamiento físico y estético.
+        Trabajamos con equipos de última generación con tecnología desarrollada
+        en Francia, Italia y Alemania.
+        <br />
+        <br />Los más importantes llamados:
+        <strong> Imoove, Icoone, Inshape, Kysio y Vacumed.</strong>
+      </p>
+      <NuxtLink
+        to="/quienes"
+        class="
+          mt-6
+          inline-flex
+          text-white
+          bg-purple
+          border-0
+          py-2
+          px-6
+          focus:outline-none
+          hover:bg-mint hover:text-purple
+          rounded
+          text-lg
+        "
+      >
+        Lee más
+      </NuxtLink>
     </div>
 
     <!-- QUIENES SOMOS 
@@ -232,7 +235,6 @@
     </div>
     -->
 
-
     <!-- SECCION DE PRODUCTOS 
     <section
       id="equipos"
@@ -274,8 +276,7 @@
     <div class="sr-only sm:not-sr-only">
       -->
 
-
-      <!-- ::::::::: 1 :::::::::: 
+    <!-- ::::::::: 1 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -368,9 +369,8 @@
         </div>
       </section>
       -->
-      
 
-      <!-- ::::::::: 2 :::::::::: 
+    <!-- ::::::::: 2 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -464,7 +464,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 3 :::::::::: 
+    <!-- ::::::::: 3 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -558,7 +558,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 4 :::::::::: 
+    <!-- ::::::::: 4 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -656,7 +656,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 5 :::::::::: 
+    <!-- ::::::::: 5 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -847,7 +847,7 @@
         </div>
       </section>
 -->
-      <!-- ::::::::: 2 :::::::::: 
+    <!-- ::::::::: 2 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -940,7 +940,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 3 :::::::::: 
+    <!-- ::::::::: 3 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1034,7 +1034,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 4 :::::::::: 
+    <!-- ::::::::: 4 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
@@ -1130,7 +1130,7 @@
       </section>
 -->
 
-      <!-- ::::::::: 5 :::::::::: 
+    <!-- ::::::::: 5 :::::::::: 
       <section class="text-gray-900 body-font">
         <div
           class="
