@@ -1,12 +1,7 @@
 <template>
-    <div>
-        <Navbar />
-        <section
-      id="quienes"
-      data-aos="fade-in"
-      data-aos-duration="2000"
-      class="text-gray-900 body-font"
-    >
+  <div>
+    <Navbar />
+    <section id="quienes" class="text-gray-900 body-font">
       <div
         class="
           container
@@ -46,11 +41,17 @@
           "
         >
           <h1
+            data-aos="fade-in"
+            data-aos-duration="2000"
             class="title-font sm:text-4xl text-3xl mb-4 font-medium text-purple"
           >
             ¿Quiénes somos?
           </h1>
-          <p class="mb-8 leading-relaxed text-gray-900">
+          <p
+            data-aos="fade-in"
+            data-aos-duration="2000"
+            class="mb-8 leading-relaxed text-gray-900"
+          >
             Somos un centro de rehabilitación, acondicionamiento físico y
             estético. Trabajamos con equipos de última generación con tecnología
             desarrollada en Francia, Italia y Alemania.
@@ -173,7 +174,7 @@
             Excelencia
           </h6>
         </div>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
 </template>
