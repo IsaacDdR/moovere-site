@@ -44,6 +44,26 @@
                 rehabilitación física, estética, médica y deportiva. <br />
                 Imoove es para todas las edades.
               </p>
+              <div class="flex mt-4">
+                <NuxtLink
+                  to="/imoove"
+                  class="
+                    mx-auto
+                    inline-flex
+                    text-white
+                    bg-purple
+                    border-0
+                    py-2
+                    px-6
+                    focus:outline-none
+                    hover:bg-mint hover:text-purple
+                    rounded
+                    text-lg
+                  "
+                >
+                  Lee más
+                </NuxtLink>
+              </div>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
